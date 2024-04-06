@@ -1,5 +1,5 @@
 # Decky Loader Windows Build
-A Dockerfile to build the windows binary of decky loader for use on windows.
+A Dockerfile to build the windows binary of [decky loader](https://github.com/SteamDeckHomebrew/decky-loader) for use on windows.
 
 # Prerequisites
 
