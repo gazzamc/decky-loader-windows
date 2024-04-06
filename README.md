@@ -10,9 +10,9 @@ A Dockerfile to build the windows binary of [decky loader](https://github.com/St
 
 1. Pass the release tag you want to build (obtained [here](https://github.com/SteamDeckHomebrew/decky-loader/tags))
 
-
-        docker buildx build --output type=local,dest=. . --build-arg release={release-tag}
-
+```Dockerfile
+   docker buildx build --output type=local,dest=. . --build-arg release=v2.11.1
+```
 
 2. It will generate a `dist` folder containing a `homebrew` folder
 
